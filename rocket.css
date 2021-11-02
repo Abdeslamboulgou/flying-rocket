@@ -1,0 +1,53 @@
+div > img{
+    width: 100px;
+    height: 120px;
+    position: relative;
+    top: 580px;
+    left: 50%;
+    animation: anim   5s  ease   infinite;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/R.94bd08ddea25b925d472c85f807c8798?rik=6Q6sargy%2f7zPSg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fHzeN8sS.png&ehk=HUXj8l6TMEsoWLjrgpp%2bhH7FLu%2f8kEHUCRvzhW0Uy7w%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: anime   4s  ease-in   infinite;
+
+}
+#avion{
+    width: 150px;
+    height: 180px;
+    position: relative;
+    top: 10px;
+    left: 100%;
+    animation: anima   5s  ease-in  infinite;
+}
+
+@keyframes anim {
+    0%{
+             transform: translateY(0px);
+    }
+    100%{
+            
+              transform: translateY(-800px);
+    }   
+}
+@keyframes anima {
+    0%{
+             transform: translateX(0px);
+    }
+    100%{
+            
+              transform: translateX(-1400px);
+    }
+    
+}
+@keyframes anime {
+    0%{
+        background-image: url("https://th.bing.com/th/id/R.94bd08ddea25b925d472c85f807c8798?rik=6Q6sargy%2f7zPSg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fHzeN8sS.png&ehk=HUXj8l6TMEsoWLjrgpp%2bhH7FLu%2f8kEHUCRvzhW0Uy7w%3d&risl=&pid=ImgRaw&r=0");
+
+    }
+    100%{
+         background-image: url("https://th.bing.com/th/id/OIP.0ISXUwmJWkjJMlBZ_mZpvwHaE7?pid=ImgDet&rs=1");
+    }
+    
+}
